@@ -323,7 +323,7 @@
 				80B81A501830D81C000200FA /* PassingThoughts2.xcdatamodel */,
 				80B81A431830CE28000200FA /* PassingThoughts.xcdatamodel */,
 			);
-			currentVersion = 80B81A431830CE28000200FA /* PassingThoughts.xcdatamodel */;
+			currentVersion = 80B81A501830D81C000200FA /* PassingThoughts2.xcdatamodel */;
 			path = PassingThoughts.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
