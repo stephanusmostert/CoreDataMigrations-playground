@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80B81A261830CE28000200FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B81A251830CE28000200FA /* UIKit.framework */; };
+		80B81A281830CE28000200FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B81A271830CE28000200FA /* Foundation.framework */; };
+		80B81A2A1830CE28000200FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B81A291830CE28000200FA /* CoreGraphics.framework */; };
+		80B81A2C1830CE28000200FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B81A2B1830CE28000200FA /* CoreData.framework */; };
+		80B81A321830CE28000200FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80B81A301830CE28000200FA /* InfoPlist.strings */; };
+		80B81A341830CE28000200FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B81A331830CE28000200FA /* main.m */; };
+		80B81A381830CE28000200FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B81A371830CE28000200FA /* AppDelegate.m */; };
+		80B81A3A1830CE28000200FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B81A391830CE28000200FA /* Default.png */; };
+		80B81A3C1830CE28000200FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B81A3B1830CE28000200FA /* Default@2x.png */; };
+		80B81A3E1830CE28000200FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B81A3D1830CE28000200FA /* Default-568h@2x.png */; };
+		80B81A411830CE28000200FA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B81A3F1830CE28000200FA /* MainStoryboard.storyboard */; };
+		80B81A441830CE28000200FA /* PassingThoughts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B81A421830CE28000200FA /* PassingThoughts.xcdatamodeld */; };
+		80B81A471830CE28000200FA /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B81A461830CE28000200FA /* MasterViewController.m */; };
+		80B81A4A1830CE28000200FA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B81A491830CE28000200FA /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		80B81A221830CE28000200FA /* PassingThoughts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingThoughts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80B81A251830CE28000200FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80B81A271830CE28000200FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80B81A291830CE28000200FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80B81A2B1830CE28000200FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		80B81A2F1830CE28000200FA /* PassingThoughts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassingThoughts-Info.plist"; sourceTree = "<group>"; };
+		80B81A311830CE28000200FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80B81A331830CE28000200FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80B81A351830CE28000200FA /* PassingThoughts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PassingThoughts-Prefix.pch"; sourceTree = "<group>"; };
+		80B81A361830CE28000200FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80B81A371830CE28000200FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80B81A391830CE28000200FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80B81A3B1830CE28000200FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80B81A3D1830CE28000200FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80B81A401830CE28000200FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		80B81A431830CE28000200FA /* PassingThoughts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PassingThoughts.xcdatamodel; sourceTree = "<group>"; };
+		80B81A451830CE28000200FA /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		80B81A461830CE28000200FA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		80B81A481830CE28000200FA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		80B81A491830CE28000200FA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80B81A1F1830CE28000200FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B81A261830CE28000200FA /* UIKit.framework in Frameworks */,
+				80B81A281830CE28000200FA /* Foundation.framework in Frameworks */,
+				80B81A2A1830CE28000200FA /* CoreGraphics.framework in Frameworks */,
+				80B81A2C1830CE28000200FA /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80B81A191830CE28000200FA = {
+			isa = PBXGroup;
+			children = (
+				80B81A2D1830CE28000200FA /* PassingThoughts */,
+				80B81A241830CE28000200FA /* Frameworks */,
+				80B81A231830CE28000200FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80B81A231830CE28000200FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80B81A221830CE28000200FA /* PassingThoughts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80B81A241830CE28000200FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B81A251830CE28000200FA /* UIKit.framework */,
+				80B81A271830CE28000200FA /* Foundation.framework */,
+				80B81A291830CE28000200FA /* CoreGraphics.framework */,
+				80B81A2B1830CE28000200FA /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80B81A2D1830CE28000200FA /* PassingThoughts */ = {
+			isa = PBXGroup;
+			children = (
+				80B81A361830CE28000200FA /* AppDelegate.h */,
+				80B81A371830CE28000200FA /* AppDelegate.m */,
+				80B81A3F1830CE28000200FA /* MainStoryboard.storyboard */,
+				80B81A451830CE28000200FA /* MasterViewController.h */,
+				80B81A461830CE28000200FA /* MasterViewController.m */,
+				80B81A481830CE28000200FA /* DetailViewController.h */,
+				80B81A491830CE28000200FA /* DetailViewController.m */,
+				80B81A421830CE28000200FA /* PassingThoughts.xcdatamodeld */,
+				80B81A2E1830CE28000200FA /* Supporting Files */,
+			);
+			path = PassingThoughts;
+			sourceTree = "<group>";
+		};
+		80B81A2E1830CE28000200FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80B81A2F1830CE28000200FA /* PassingThoughts-Info.plist */,
+				80B81A301830CE28000200FA /* InfoPlist.strings */,
+				80B81A331830CE28000200FA /* main.m */,
+				80B81A351830CE28000200FA /* PassingThoughts-Prefix.pch */,
+				80B81A391830CE28000200FA /* Default.png */,
+				80B81A3B1830CE28000200FA /* Default@2x.png */,
+				80B81A3D1830CE28000200FA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80B81A211830CE28000200FA /* PassingThoughts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B81A4D1830CE28000200FA /* Build configuration list for PBXNativeTarget "PassingThoughts" */;
+			buildPhases = (
+				80B81A1E1830CE28000200FA /* Sources */,
+				80B81A1F1830CE28000200FA /* Frameworks */,
+				80B81A201830CE28000200FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PassingThoughts;
+			productName = PassingThoughts;
+			productReference = 80B81A221830CE28000200FA /* PassingThoughts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80B81A1A1830CE28000200FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = FanieM;
+			};
+			buildConfigurationList = 80B81A1D1830CE28000200FA /* Build configuration list for PBXProject "PassingThoughts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80B81A191830CE28000200FA;
+			productRefGroup = 80B81A231830CE28000200FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80B81A211830CE28000200FA /* PassingThoughts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80B81A201830CE28000200FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B81A321830CE28000200FA /* InfoPlist.strings in Resources */,
+				80B81A3A1830CE28000200FA /* Default.png in Resources */,
+				80B81A3C1830CE28000200FA /* Default@2x.png in Resources */,
+				80B81A3E1830CE28000200FA /* Default-568h@2x.png in Resources */,
+				80B81A411830CE28000200FA /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80B81A1E1830CE28000200FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B81A341830CE28000200FA /* main.m in Sources */,
+				80B81A381830CE28000200FA /* AppDelegate.m in Sources */,
+				80B81A441830CE28000200FA /* PassingThoughts.xcdatamodeld in Sources */,
+				80B81A471830CE28000200FA /* MasterViewController.m in Sources */,
+				80B81A4A1830CE28000200FA /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80B81A301830CE28000200FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B81A311830CE28000200FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80B81A3F1830CE28000200FA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80B81A401830CE28000200FA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80B81A4B1830CE28000200FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80B81A4C1830CE28000200FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80B81A4E1830CE28000200FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassingThoughts/PassingThoughts-Prefix.pch";
+				INFOPLIST_FILE = "PassingThoughts/PassingThoughts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80B81A4F1830CE28000200FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PassingThoughts/PassingThoughts-Prefix.pch";
+				INFOPLIST_FILE = "PassingThoughts/PassingThoughts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80B81A1D1830CE28000200FA /* Build configuration list for PBXProject "PassingThoughts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B81A4B1830CE28000200FA /* Debug */,
+				80B81A4C1830CE28000200FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B81A4D1830CE28000200FA /* Build configuration list for PBXNativeTarget "PassingThoughts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B81A4E1830CE28000200FA /* Debug */,
+				80B81A4F1830CE28000200FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80B81A421830CE28000200FA /* PassingThoughts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80B81A431830CE28000200FA /* PassingThoughts.xcdatamodel */,
+			);
+			currentVersion = 80B81A431830CE28000200FA /* PassingThoughts.xcdatamodel */;
+			path = PassingThoughts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 80B81A1A1830CE28000200FA /* Project object */;
+}
