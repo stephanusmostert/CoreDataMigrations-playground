@@ -1,4 +1,4 @@
-CoreDataMigrations-playground
-=============================
+Playground: Core data migrations
+================================
 
-http://www.raywenderlich.com/27657
+Passing thoughts: Implementation of http://www.raywenderlich.com/27657
