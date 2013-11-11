@@ -44,6 +44,7 @@
 		80B81A461830CE28000200FA /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		80B81A481830CE28000200FA /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		80B81A491830CE28000200FA /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		80B81A501830D81C000200FA /* PassingThoughts2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = file; path = PassingThoughts2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,6 +320,7 @@
 		80B81A421830CE28000200FA /* PassingThoughts.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				80B81A501830D81C000200FA /* PassingThoughts2.xcdatamodel */,
 				80B81A431830CE28000200FA /* PassingThoughts.xcdatamodel */,
 			);
 			currentVersion = 80B81A431830CE28000200FA /* PassingThoughts.xcdatamodel */;
